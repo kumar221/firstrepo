@@ -10,11 +10,12 @@ import java.io.IOException;
 
 
 public class appleinterview {
+	
 	public void call(File f) throws IOException{
 		BufferedReader br = new BufferedReader(new FileReader(f));
 		String s=null;
 		while((s=br.readLine())!=null){
-					
+			System.out.println("");// just a change
 			System.out.println(s);
 			String[] y= s.split("\\s");
 			for(String xy:y){
