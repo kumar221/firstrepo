@@ -16,7 +16,7 @@ public class appleinterview {
 		String s=null;
 		while((s=br.readLine())!=null){
 			System.out.println("");// just a change
-			System.out.println("");// just a change 2
+			System.out.println("");// just a change 2 and 3
 			System.out.println(s);
 			String[] y= s.split("\\s");
 			for(String xy:y){
