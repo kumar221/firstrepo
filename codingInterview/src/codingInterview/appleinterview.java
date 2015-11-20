@@ -17,7 +17,7 @@ public class appleinterview {
 		while((s=br.readLine())!=null){
 			System.out.println("");// just a change
 			System.out.println("");// just a change 2 and 3 4334 now this is the 5 th change and now the 6th change
-			System.out.println(s);
+			System.out.println(s);// seventh change
 			String[] y= s.split("\\s");
 			for(String xy:y){
 				if(xy.startsWith("p")){
